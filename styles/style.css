@@ -130,3 +130,43 @@ p {
 .service img {
     margin-bottom: 20px;
 }
+
+/* hot deal section  */
+.hot-deal{
+    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 500px;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-deal-description *{
+    margin-bottom: 20px;
+}
+.hot-deal-image img{
+    vertical-align: middle;
+}
+.hot-deal-description .section-title span{
+    color: #E55473;
+}
+.hot-deal-description h2{
+    font-weight: 900;
+}
+
+/* social profile  */
+.social-profile{
+    margin-top: 130px;
+}
+.social-text *{
+    text-align: center;
+    margin: 18px auto;
+}
+.social-images{
+    display: flex;
+    gap: 20px;
+}
+.social-images img{
+    border-radius: 10px;
+}
