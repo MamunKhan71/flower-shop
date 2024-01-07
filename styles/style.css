@@ -197,3 +197,30 @@ input[type="email"]{
     vertical-align: middle;
 }
 /* footer section  */
+footer{
+    display: flex;
+    margin-top: 140px;
+    background-color: #111010;
+    height: 320px;
+}
+.footer-details p, .footer-details{
+    text-align: center;
+    margin: auto;
+}
+.footer-title{
+    color:white;
+    font-weight: 800;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-details p{
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-details small{
+    color: rgba(255, 255, 255, 0.40);
+
+}
+.footer-details *{
+    margin-bottom: 20px;
+}
